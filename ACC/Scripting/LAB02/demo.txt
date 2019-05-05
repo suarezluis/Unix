@@ -1,0 +1,18 @@
+
+Enter clock-in time: (H:M am/pm) 8:00 am
+Enter lunch clock-out time: (H:M am/pm) 12:00 pm
+Enter lunch clock-in time: (H:M am/pm) 1:00 pm
+Enter clock-out time: (H:M am/pm) 5:00 pm
+Time Worked = 8 Hours and 0 minutes
+
+Enter clock-in time: (H:M am/pm) 8:05 am
+Enter lunch clock-out time: (H:M am/pm) 12:00 pm
+Enter lunch clock-in time: (H:M am/pm) 1:00 pm
+Enter clock-out time: (H:M am/pm) 4:55 pm
+Time Worked = 7 Hours and 50 minutes
+
+Enter clock-in time: (H:M am/pm) 8:15 am
+Enter lunch clock-out time: (H:M am/pm) 11:55 am
+Enter lunch clock-in time: (H:M am/pm) 12:57 pm
+Enter clock-out time: (H:M am/pm) 5:05 pm
+Time Worked = 7 Hours and 48 minutes

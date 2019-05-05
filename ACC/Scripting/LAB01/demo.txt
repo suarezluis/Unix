@@ -1,0 +1,20 @@
+Lab 01 SUM & AVERAGELab 01 SUM & AVERAGE
+Author: Luis F Suarez Harasic
+Instructions:
+------------
+Write a script using a Linus shell programming language to compute the sum and average of any 10 numbers. Print out sum and average
+
+Please enter numbers.
+1st number: 1
+2nd number: 2
+3rd number: 3
+4rd number: 1
+5th number: 4
+6th number: 5
+7th number: 1
+8th number: 5
+9th number: 4
+10th number: 3
+
+The sum of your numbers is:  29
+The average of your numbers is: 2.90
