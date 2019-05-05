@@ -1,0 +1,14 @@
+
+Reading data from input.txt...
+
+Got 2, squared is 4, writing to output.txt
+Got 4, squared is 16, writing to output.txt
+Got 6, squared is 36, writing to output.txt
+Got 8, squared is 64, writing to output.txt
+Got 10, squared is 100, writing to output.txt
+Got 12, squared is 144, writing to output.txt
+Got 14, squared is 196, writing to output.txt
+Got 16, squared is 256, writing to output.txt
+Got 18, squared is 324, writing to output.txt
+
+Finished, 9 added to output.txt
