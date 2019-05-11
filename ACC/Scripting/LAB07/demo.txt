@@ -1,0 +1,46 @@
+Please guess grandma's age
+
+Please try again
+Please guess grandma's age
+3
+Please try again
+Please guess grandma's age
+
+Please try again
+Please guess grandma's age
+6
+Please try again
+Please guess grandma's age
+34
+Please try again
+Please guess grandma's age
+81
+Please try again
+Please guess grandma's age
+-12
+Please try again
+Please guess grandma's age
+100
+Please try again
+Please guess grandma's age
+ 
+Please try again
+Please guess grandma's age
+   
+Please try again
+Please guess grandma's age
+8-0
+Please try again
+Please guess grandma's age
+^CYou cannot leave until you guess her age
+^X
+Please try again
+Please guess grandma's age
+^ZYou cannot leave until you guess her age
+Please try again
+Please guess grandma's age
+Please try again
+Please guess grandma's age
+^CYou cannot leave until you guess her age
+80
+Congratulations!

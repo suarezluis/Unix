@@ -1,0 +1,38 @@
+#!/bin/bash
+
+# Write an Interrupt / Software signals trapping program
+
+# This program will prompt user to guess the age of a grandmother.
+# The user may guess as many times as possible.
+
+# Nothing will be able to terminate this program except when the user
+# enters the right answer
+
+
+# Please turn in source code and the run. Thanks
+
+trap -p
+
+for i in {1..62}
+do
+    trap -- 'echo "You cannot leave until you guess her age"' $i # Trap every signal, so its not posible to brake
+done
+
+
+echo "Please guess grandma's age"
+read age
+if [ -z $age  ]
+then
+    age=0
+fi
+while [ $age != 80 ];do
+    echo "Please try again"
+    echo "Please guess grandma's age"
+    read age
+    if [ -z $age ]
+    then
+        age=0
+    fi
+done
+echo "Congratulations!"
+exit 0

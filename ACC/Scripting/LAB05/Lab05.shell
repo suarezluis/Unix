@@ -1,0 +1,101 @@
+#!/bin/bash
+# Write a menu driven program using FUNCTION to test some of the arithmetic operators.
+# Example:
+# 			Main Menu
+
+# 		1--------------------------------ADD
+# 		2--------------------------------SUB
+# 		3--------------------------------MPY
+# 4--------------------------------MOD
+# 5--------------------------------DIV
+# 		6--------------------------------EXIT
+
+# The program must prompt user for input i.e.
+# Please enter two numbers to be added.
+# Also must print out the input and the result (output).
+
+# Please turn in source code and the run. Thanks
+
+# -----------------------------------------------------------------------------------------
+# Function to ask user for input
+
+
+
+
+
+
+while :
+do
+    echo ""
+    echo "   Main Menu:"
+    echo "   ========="
+    echo ""
+    options=( "ADD (X + Y)" "SUB (X - Y)" "MPY (X * Y)" "MOD (X % Y)" "DIV (X / Y)" "EXIT (->)")
+    select opt in "${options[@]}"
+    do
+        
+        case $opt in
+            "ADD (X + Y)")
+                echo $opt
+                echo "Please enter X:"
+                read num1
+                echo "Please enter Y:"
+                read num2
+                echo -n "$num1 + $num2 = "
+                echo "$num1 $num2" | awk '{printf  $1+$2}'
+                echo ""
+                break
+            ;;
+            "SUB (X - Y)")
+                echo $opt
+                echo "Please enter X:"
+                read num1
+                echo "Please enter Y:"
+                read num2
+                echo -n "$num1 - $num2 = "
+                echo "$num1 $num2" | awk '{printf  $1-$2}'
+                echo ""
+                break
+            ;;
+            "MPY (X * Y)")
+                echo $opt
+                echo "Please enter X:"
+                read num1
+                echo "Please enter Y:"
+                read num2
+                echo -n "$num1 * $num2 = "
+                echo "$num1 $num2" | awk '{printf  $1*$2}'
+                echo ""
+                break
+            ;;
+            "MOD (X % Y)")
+                echo $opt
+                echo "Please enter X:"
+                read num1
+                echo "Please enter Y:"
+                read num2
+                echo -n "$num1 % $num2 = "
+                echo "$num1 $num2" | awk '{printf  $1%$2}'
+                echo ""
+                break
+            ;;
+            "DIV (X / Y)")
+                echo $opt
+                echo "Please enter X:"
+                read num1
+                echo "Please enter Y:"
+                read num2
+                echo -n "$num1 / $num2 = "
+                echo "$num1 $num2" | awk '{printf  $1/$2}'
+                echo ""
+                break
+            ;;
+            "EXIT (->)")
+                echo "Good Bye..."
+                exit 0
+            ;;
+        esac
+        
+    done
+done
+

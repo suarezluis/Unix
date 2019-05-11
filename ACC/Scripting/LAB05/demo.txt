@@ -1,0 +1,97 @@
+
+   Main Menu:
+   =========
+
+1) ADD (X + Y)
+2) SUB (X - Y)
+3) MPY (X * Y)
+4) MOD (X % Y)
+5) DIV (X / Y)
+6) EXIT (->)
+#? 1
+ADD (X + Y)
+Please enter X:
+5
+Please enter Y:
+4
+5 + 4 = 9
+
+   Main Menu:
+   =========
+
+1) ADD (X + Y)
+2) SUB (X - Y)
+3) MPY (X * Y)
+4) MOD (X % Y)
+5) DIV (X / Y)
+6) EXIT (->)
+#? 2
+SUB (X - Y)
+Please enter X:
+10
+Please enter Y:
+6
+10 - 6 = 4
+
+   Main Menu:
+   =========
+
+1) ADD (X + Y)
+2) SUB (X - Y)
+3) MPY (X * Y)
+4) MOD (X % Y)
+5) DIV (X / Y)
+6) EXIT (->)
+#? 3
+MPY (X Lab05.sh Y)
+Please enter X:
+3
+Please enter Y:
+8
+3 * 8 = 24
+
+   Main Menu:
+   =========
+
+1) ADD (X + Y)
+2) SUB (X - Y)
+3) MPY (X * Y)
+4) MOD (X % Y)
+5) DIV (X / Y)
+6) EXIT (->)
+#? 4
+MOD (X % Y)
+Please enter X:
+10
+Please enter Y:
+3
+10 % 3 = 1
+
+   Main Menu:
+   =========
+
+1) ADD (X + Y)
+2) SUB (X - Y)
+3) MPY (X * Y)
+4) MOD (X % Y)
+5) DIV (X / Y)
+6) EXIT (->)
+#? 5
+DIV (X / Y)
+Please enter X:
+10
+Please enter Y:
+3
+10 / 3 = 3.33333
+
+   Main Menu:
+   =========
+
+1) ADD (X + Y)
+2) SUB (X - Y)
+3) MPY (X * Y)
+4) MOD (X % Y)
+5) DIV (X / Y)
+6) EXIT (->)
+#? 6
+Good Bye...

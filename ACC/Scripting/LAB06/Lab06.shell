@@ -1,0 +1,42 @@
+#!/bin/bash
+# The Network administrator has kindly asked you to develop a login script for XYZ company.
+# Write a program to generate a login script using the following specification
+
+# All employees can only work Monday –Friday
+# There is mandatory a general meeting of all the insurance vendors on Wed. at 2pm
+# Write a good message to welcome employees on Mondays and to send them home on Fridays
+# Thursday is a backup days to be done between 3 & 5 pm
+# Tuesday is a day for employees to show case what they do to their children, spouses and relatives. A general family day
+
+# Good Luck
+
+# Hint: Must run in real time for credit
+
+
+
+date "+%A, %B %d %r"
+echo "Please Login"
+echo -n "Username: "
+read user
+
+case $(date "+%w") in
+    
+    0)echo "Hi $user Today is Sunday, we do not pay overtime, Go to church!."
+    ;;
+    1)echo "Hi $user Happy MONDAY! (if there is such a thing)"
+    ;;
+    2)echo "Hi $user Did you bring your family? Today is Family Day."
+    ;;
+    3)echo "Hi $user Hump Day! don't forget the meeting for all the insurance vendors at 2pm."
+    ;;
+    4)echo "Hi $user Not quiet Friday yet, anyways backup your files today between 3pm and 5pm."
+    ;;
+    5)echo "Hi $user is Friday! almost done pal, finish strong!"
+    ;;
+    6)echo "Hi $user Today is Saturday, Go home!"
+    ;;
+    *)echo "Invalid"
+    ;;
+esac
+
+exit 0
